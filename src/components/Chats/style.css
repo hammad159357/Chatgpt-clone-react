@@ -1,0 +1,113 @@
+.main-chats {
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+    height: 100vh;
+    padding: 5px 10px 5px 10px;
+    /* margin-left: 50px; */
+}
+
+.chat-first-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+}
+
+
+.chat-icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.chat-second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3F424A;
+    color: white;
+    gap: 10px;
+    margin-top: 15px;
+    height: 48px;
+    width: 288px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 5px 0px 5px 0px;
+}
+
+.chat-button {
+    display: flex;
+    gap: 15px;
+    color: rgb(35, 198, 158);
+    align-items: center;
+    width: 160px;
+    justify-content: center;
+    height: 40px;
+    border-radius: 6px;
+    background: #1E1F22;
+    cursor: pointer;
+}
+
+.chat-third-container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.chat-fourth-container{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    cursor: pointer;
+
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+}
+.search-container {
+    position: relative;
+  }
+  
+  .search-input {
+    padding-left: 30px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px; 
+    background-color: #3F424A;
+    color: #FFFFFF;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 5px;
+    top: 45%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+  }
+  .search-input:focus {
+    background-color: #3F424A;;
+    /* color: #3F424A; Change text color on focus */
+  }
+
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  /* Hide scrollbar track */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Make scrollbar track transparent */
+  }
+  
+  /* Hide scrollbar handle */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; /* Make scrollbar handle transparent */
+  }
+  
+  
